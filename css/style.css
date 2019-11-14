@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+}
 h1{
   font-size: 8vw;
   font-family: 'Barlow', sans-serif;
@@ -17,7 +18,7 @@ h2,h3,h4,h5,h6{
   font-family: 'Open Sans Condensed', sans-serif;
   background-color:#73564C;
   width: 100%;
-  padding-bottom: 35px
+  padding: 25px 5px;
 }
 i{
   padding: 10px;
@@ -43,30 +44,16 @@ ul,li{
   font-family: 'Raleway', sans-serif;
   width: 100%;
   display: block;
+  line-height: 2em;
+
 }
-#coordonnées{
-  background-color:#73564C;
-  color: white;
-}
-#presentation{
-  color: white;
-  background-color: #73564C;
-}
-#competences{
-  color: white;
-  background-color: #73564C
-}
-#experiences{
-  color: white;
-  background-color: #73564C
-}
-#formation{
-  color: white;
-  background-color: #73564C
+#loisirs{
+  position: absolute;
 }
 section {
-  clear: both;
-  padding-bottom: 71px;
+  padding: 50px;
+  color: white;
+  background-color: #73564C;
 }
 body > header > div > img {
   background-image: url("numerique.jpg");
@@ -74,7 +61,7 @@ body > header > div > img {
 }
 .heading {
   position: absolute;
-  top: 10%;
+  top: 12%;
   text-align: center;
   width: 100%;
 }
@@ -111,7 +98,30 @@ nav a, label{
 nav label, nav input{
   display: none;
 }
+#presentation > ul > a:nth-child(1){
+  color: white;
+  display: block;
+  box-sizing: border-box;
+}
+#presentation > ul > a:nth-child(2){
+  color: white;
+  line-height: 20px;
+  display: block;
+  box-sizing: border-box;
+}
+#presentation > ul > a:nth-child(3){
+  color: white;
+  line-height: 20px;
+  box-sizing: border-box;
+  display: inline;
+}
 
+#presentation > ul > a:nth-child(4){
+  color:white;
+  line-height: 20px;
+  box-sizing: border-box;
+  display: inline;
+}
 /*overlay images loisirs*/
 .container {
   width: calc(100%/3);
@@ -185,8 +195,8 @@ nav li{
 #presentation > ul{
   width: 100%;
   padding: 30px;
-  box-sizing: border-box;
   float: none;
+  box-sizing: border-box;
 }
 p{
   font-size: 23px;
@@ -194,7 +204,7 @@ p{
   width: 100%;
   display: inline-block;
   list-style-type: none;
-  line-height: 33px;
+  line-height: 40px;
   padding: 30px;
   box-sizing: border-box;
 }
@@ -205,14 +215,46 @@ p{
   float: none;
 }
 #experiences > ul{
-  padding: 30px;
+  padding: 25px;
   width: 100%;
   box-sizing: border-box;
   float: none;
+  line-height: 40px;
 }
 #formation > ul{
-  padding: 30px;
+  padding: 25px;
   width: 100%;
   box-sizing: border-box;
   float: none;
+  line-height: 2em;
+}
+#presentation > ul > a:nth-child(1){
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  font-size: initial;
+
+}
+#presentation > ul > a:nth-child(2){
+  color: white;
+  line-height: 20px;
+  display: block;
+  box-sizing: border-box;
+  font-size: initial;
+
+}
+#presentation > ul > a:nth-child(3){
+  color: white;
+  line-height: 20px;
+  box-sizing: border-box;
+  display: inline;
+  font-size: initial;
+}
+#presentation > ul > a:nth-child(4){
+  color:white;
+  line-height: 20px;
+  box-sizing: border-box;
+  display: inline;
+  font-size: initial;
+
 }
