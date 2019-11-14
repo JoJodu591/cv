@@ -61,9 +61,10 @@ body > header > div > img {
 }
 .heading {
   position: absolute;
-  top: 12%;
+  top: 10%;
   text-align: center;
   width: 100%;
+  color: white;
 }
 
 nav{
@@ -108,12 +109,16 @@ nav label, nav input{
   line-height: 20px;
   display: block;
   box-sizing: border-box;
+  line-height: 2;
+
 }
 #presentation > ul > a:nth-child(3){
   color: white;
   line-height: 20px;
   box-sizing: border-box;
   display: inline;
+  line-height: 3;
+
 }
 
 #presentation > ul > a:nth-child(4){
@@ -197,6 +202,7 @@ nav li{
   padding: 30px;
   float: none;
   box-sizing: border-box;
+  line-height: 2.5;
 }
 p{
   font-size: 23px;
@@ -233,7 +239,7 @@ p{
   display: block;
   box-sizing: border-box;
   font-size: initial;
-
+  line-height: 4;
 }
 #presentation > ul > a:nth-child(2){
   color: white;
