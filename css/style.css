@@ -51,7 +51,6 @@ ul,li{
   position: absolute;
 }
 section {
-  padding: 50px;
   color: white;
   background-color: #73564C;
 }
@@ -238,7 +237,7 @@ p{
   display: block;
   box-sizing: border-box;
   font-size: initial;
-  line-height: 4;
+  line-height: 3;
 }
 #presentation > ul > a:nth-child(2){
   color: white;
