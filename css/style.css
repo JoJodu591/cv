@@ -18,7 +18,8 @@ h2,h3,h4,h5,h6{
   font-family: 'Open Sans Condensed', sans-serif;
   background-color:#73564C;
   width: 100%;
-  padding: 25px 5px;
+  padding: 35px 7px;
+  box-sizing: border-box;
 }
 i{
   padding: 10px;
@@ -84,7 +85,7 @@ nav a, label{
   text-decoration: none;
   color: #73564C;
   border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-  padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+  padding: 5px 1px;/*Agrandit le menu et espace la bordure du texte*/
   box-sizing: border-box;
 }
 #competences>img{
