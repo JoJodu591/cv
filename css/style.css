@@ -18,7 +18,7 @@ h2,h3,h4,h5,h6{
   font-family: 'Open Sans Condensed', sans-serif;
   background-color:#73564C;
   width: 100%;
-  padding: 65px 30%;
+  padding: 85px 15%;
   box-sizing: border-box;
 }
 i{
@@ -26,25 +26,26 @@ i{
 }
 
 p{
-  font-size: 17px;
+  font-size: 23px;
   font-family: 'Raleway', sans-serif;
+  display: block;
   list-style-type: none;
-  line-height: 33px;
-  padding: 10px 26px;
+  line-height: 73px;
   text-align: center;
 }
 #presentation > ul{
-  padding: 10px;
-  line-height: 70px
+  padding: 30px;
+  text-align: center;
+  display: block;
 }
 ul,li{
   font-size: 21px;
   list-style-type: none;
   font-family: 'Raleway', sans-serif;
-  width: 100%;
   display: block;
-  line-height: 2em;
   text-align: center;
+  line-height: 65px;
+
 }
 #loisirs{
   position: absolute;
@@ -59,7 +60,7 @@ body > header > div > img {
 }
 .heading {
   position: absolute;
-  top: 10%;
+  top: 7%;
   text-align: center;
   width: 100%;
   color: white;
@@ -173,6 +174,11 @@ nav label, nav input{
   background-color: rgba(115, 86, 76, 0.7);
 
 }
+#competences > img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto
+}
 /*fin overlay images loisirs*/
 
 @media screen and (max-width:768px){
@@ -200,21 +206,22 @@ nav li{
   float: none;
   box-sizing: border-box;
   line-height: 2.5;
+  text-align: center;
 }
 p{
   font-size: 17px;
   font-family: 'Raleway', sans-serif;
   width: 100%;
   display: inline-block;
-  list-style-type: none;
-  padding: 11px 25px;
   box-sizing: border-box;
+  text-align: center;
 }
 #competences > img{
-  padding: 25px;
-  width: 65%;
-  box-sizing: border-box;
-  float: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #experiences > ul{
   padding: 25px;
@@ -222,6 +229,7 @@ p{
   box-sizing: border-box;
   float: none;
   line-height: 40px;
+  text-align: center;
 }
 #formation > ul{
   padding: 25px;
@@ -261,4 +269,10 @@ p{
 }
 #presentation > ul > li > i{
   font-size: 16px;
+}
+#competences{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
