@@ -20,6 +20,7 @@ h2,h3,h4,h5,h6{
   width: 100%;
   padding: 95px 15%;
   box-sizing: border-box;
+  display: inline-block;
 }
 i{
   padding: 10px;
@@ -29,27 +30,32 @@ p{
   font-size: 23px;
   font-family: 'Raleway', sans-serif;
   display: block;
-  list-style-type: none;
   line-height: 73px;
-  text-align: center;
+  box-sizing: border-box;
+  padding left: 14px;
+}
+#presentation > p{
+  width: 40%;
+  float: left;
+  padding: 20px;
 }
 #presentation > ul{
   padding: 30px;
   text-align: center;
-  display: block;
+  display: inline-block;
+  float: right;
+  width: 35%;
 }
 ul,li{
   font-size: 21px;
   list-style-type: none;
   font-family: 'Raleway', sans-serif;
-  display: block;
-  text-align: center;
-  line-height: 65px;
-
+  box-sizing: border-box;
 }
 #loisirs{
   position: absolute;
 }
+
 section {
   color: white;
   background-color: #73564C;
@@ -124,6 +130,15 @@ nav label, nav input{
   line-height: 20px;
   box-sizing: border-box;
   display: inline;
+}
+#experiences > ul > li:nth-child(3){
+  padding: 20px;
+}
+#experiences > ul > li:nth-child(5){
+  padding: 20px;
+}
+#experiences > ul > li:nth-child(7){
+  padding: 20px;
 }
 /*overlay images loisirs*/
 .container {
@@ -237,6 +252,7 @@ p{
   box-sizing: border-box;
   float: none;
   line-height: 2em;
+  text-align: center;
 }
 #presentation > ul > a:nth-child(1){
   color: white;
@@ -275,4 +291,7 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#presentation > p{
+
 }
