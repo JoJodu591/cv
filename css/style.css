@@ -31,6 +31,7 @@ p{
   display: block;
   line-height: 73px;
   box-sizing: border-box;
+  padding: 15px;
 }
 #presentation > p{
   float: left;
@@ -160,7 +161,9 @@ nav label, nav input{
 #formation > ul > li:nth-child(3) > p{
   padding: 10px 25px;
 }
-
+#experiences > ul > li:nth-child(1){
+  padding: 10px 25px;
+}
 /*overlay images loisirs*/
 .container {
   width: calc(100%/3);
