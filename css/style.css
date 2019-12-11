@@ -31,7 +31,6 @@ p{
   display: block;
   line-height: 73px;
   box-sizing: border-box;
-  padding: 15px;
 }
 #presentation > p{
   float: left;
@@ -168,7 +167,7 @@ nav label, nav input{
   width: calc(100%/3);
   display: inline-block;
   float: left;
-  position: relative;  
+  position: relative;
 }
 
 .image{
