@@ -35,9 +35,10 @@ p{
   padding left: 14px;
 }
 #presentation > p{
-  width: 40%;
   float: left;
   padding: 20px;
+  width: 40%;
+
 }
 #presentation > ul{
   padding: 30px;
@@ -129,7 +130,8 @@ nav label, nav input{
   color:white;
   line-height: 20px;
   box-sizing: border-box;
-  display: inline;
+  display: block;
+  width: 100%;
 }
 #experiences > ul > li:nth-child(3){
   padding: 20px;
@@ -280,8 +282,9 @@ p{
   color:white;
   line-height: 20px;
   box-sizing: border-box;
-  display: inline;
+  display: block;
   font-size: initial;
+  width: 100%;
 }
 #presentation > ul > li > i{
   font-size: 16px;
@@ -293,5 +296,6 @@ p{
   align-items: center;
 }
 #presentation > p{
+  width: 100%;
 
 }
