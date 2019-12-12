@@ -26,11 +26,12 @@ i{
   padding: 10px;
 }
 p{
-  font-size: 23px;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
   display: block;
   line-height: 73px;
   box-sizing: border-box;
+  padding: 5px 45px
 }
 #presentation > p{
   float: left;
@@ -125,7 +126,7 @@ nav label, nav input{
   line-height: 20px;
   box-sizing: border-box;
   display: inline;
-  line-height: 3;
+  line-height: 2;
 
 }
 
@@ -149,7 +150,7 @@ nav label, nav input{
   padding: 20px;
 }
 #experiences > ul > li:nth-child(9) > p{
-  padding: 10px;
+  padding: 5px 20px;
 }
 #formation > ul > li:nth-child(1){
   padding: 10px 25px;
@@ -158,7 +159,7 @@ nav label, nav input{
   padding: 10px 25px;
 }
 #formation > ul > li:nth-child(3) > p{
-  padding: 10px 25px;
+  padding: 5px 70px;
 }
 #experiences > ul > li:nth-child(1){
   padding: 10px 25px;
@@ -284,6 +285,7 @@ p{
   box-sizing: border-box;
   font-size: initial;
   line-height: 3;
+  padding: 5px;
 }
 #presentation > ul > a:nth-child(2){
   color: white;
@@ -291,14 +293,15 @@ p{
   display: block;
   box-sizing: border-box;
   font-size: initial;
-
+  padding: 6px;
 }
 #presentation > ul > a:nth-child(3){
   color: white;
   line-height: 20px;
   box-sizing: border-box;
-  display: inline;
+  display: block;
   font-size: initial;
+  padding: 10px;
 }
 #presentation > ul > a:nth-child(4){
   color:white;
@@ -307,9 +310,11 @@ p{
   display: block;
   font-size: initial;
   width: 100%;
+  padding: 5px;
 }
 #presentation > ul > li > i{
   font-size: 16px;
+  padding: 20px;
 }
 #competences{
   display: flex;
